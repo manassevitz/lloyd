@@ -11,6 +11,8 @@
 
      You need to change in cpu.ft - memory.tf and provider.tf
 
+7. Change the name to your alers     
+
 
 To run your alerts 
 
