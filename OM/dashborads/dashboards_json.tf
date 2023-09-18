@@ -1,5 +1,5 @@
-module "dashboardsAccessCard" {
-  source         = "./modules/dashboardsJson"
+module "dashboardTest" {
+  source         = "../../modules/dashboardsJson"
   file = "test.json"
-  folder = "./dashboards"
+  folder = "scripts"
 }
