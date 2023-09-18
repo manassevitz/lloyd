@@ -10,12 +10,13 @@ terraform {
     newrelic = {
       source = "newrelic/newrelic"
     }
-  }/*
+  }
+  
+  /*
   backend "s3" {
   bucket         = "newrelic-statefile"
-  key            = "terraform-aladtec.tfstate"
+  key            = "terraform.tfstate"
   region         = "us-east-1"
-  profile = "dmiinfrastructure01"    
-  }
-  */
+  profile        = "miprofile"    
+  }*/
 }

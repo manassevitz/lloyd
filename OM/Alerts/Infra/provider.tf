@@ -16,6 +16,6 @@ terraform {
   bucket         = "newrelic-statefile"
   key            = "terraform.tfstate"
   region         = "us-east-1"
-  profile        = "dmiinfrastructure01"    
+  profile        = "miprofile"    
   }*/
 }
