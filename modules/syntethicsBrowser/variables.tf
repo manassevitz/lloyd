@@ -16,3 +16,7 @@
    variable "folder" {
      
    }
+
+   variable "policy_id"{
+      
+   }
