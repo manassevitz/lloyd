@@ -1,9 +1,9 @@
 variable "account_id" {
   description = "Account ID of the newrelic"
-  default = "4113301"
+  default = "xxxx"
 }
 variable "api_key" {
-  description = "Api key of the newrelic."
+  description = "key"
 }
 
 variable "region" {

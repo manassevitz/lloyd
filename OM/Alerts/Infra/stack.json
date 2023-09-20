@@ -1,0 +1,10 @@
+[
+    {
+        "stack_name": "Synthetics 1",
+        "stack_js": "test.js"
+    },
+    {
+        "stack_name": "Synthetics 2",
+        "stack_js": "test.js"
+    }
+]
