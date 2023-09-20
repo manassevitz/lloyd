@@ -7,4 +7,6 @@ module "syntethics" {
   period               = "EVERY_10_MINUTES"
   locations_public     = ["US_EAST_1"]
   folder               = "./scripts/"
+  policy_id             = 4142478
 }
+
