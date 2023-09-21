@@ -20,3 +20,11 @@
    variable "policy_id"{
       
    }
+
+   variable "type" {
+     
+   }
+
+   variable "runtime_type_version" {
+     
+   }

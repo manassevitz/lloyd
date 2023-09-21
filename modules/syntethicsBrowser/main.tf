@@ -1,15 +1,15 @@
 resource "newrelic_synthetics_script_monitor" "synthetics_browser" {
   name = var.name
-  type = "SCRIPT_BROWSER"
+  type = var.type
   locations_public     = var.locations_public
   period               = var.period //EVERY_6_HOURS
   status               = var.status //DISABLED
   script               = file("${var.folder}/${var.file}")
 
+  runtime_type_version = var.type == "SCRIPT_API" ? "16.10" : var.runtime_type_version == 1 ? "100" : null
+  runtime_type         = var.type == "SCRIPT_API" ? "NODE_API" : var.runtime_type_version == 1 ? "CHROME_BROWSER" : null
+  script_language      = var.type == "SCRIPT_API" ? "JAVASCRIPT" : var.runtime_type_version == 1 ? "JAVASCRIPT" : null
 
-  runtime_type_version = "100"
-  runtime_type         = "CHROME_BROWSER"
-  script_language      = "JAVASCRIPT"
 
 }
 
