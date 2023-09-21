@@ -1,10 +1,8 @@
 [
     {
         "stack_name": "Synthetics 1",
-        "stack_js": "test.js"
-    },
-    {
-        "stack_name": "Synthetics 2",
-        "stack_js": "test.js"
+        "stack_js": "test.js",
+        "type" : "SCRIPT_BROWSER",
+        "runtime_type_version" : 1
     }
 ]
