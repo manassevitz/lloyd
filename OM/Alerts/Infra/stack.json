@@ -1,8 +1,0 @@
-[
-    {
-        "stack_name": "Synthetics 1",
-        "stack_js": "test.js",
-        "type" : "SCRIPT_BROWSER", // SCRIPT_BROWSER or SCRIPT_API
-        "runtime_type_version" : 1 // 1 for chrome 100+ - 2 form 72 legacy .. you can jump to 2 to 1 but no 1 to 2 
-    }
-]

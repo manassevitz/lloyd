@@ -26,5 +26,4 @@
    }
 
    variable "runtime_type_version" {
-     
    }
